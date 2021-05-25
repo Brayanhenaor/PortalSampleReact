@@ -3,7 +3,6 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link,
     Redirect
   } from "react-router-dom";
 import { Footer } from '../components/Footer';
@@ -24,7 +23,7 @@ export const AppRouter = () => {
 
                     <Route exact path="/ciclo" component={LifeCicleScreen}/>
 
-                    <Route exact path="/Glosary" component={GlosaryScreen}/>
+                    <Route exact path="/glosary" component={GlosaryScreen}/>
                     <Redirect to="/"/>
                 </Switch>
 

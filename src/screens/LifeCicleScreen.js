@@ -1,8 +1,6 @@
-import React, { useState } from 'react'
-import { Card } from '../components/Card'
+import React from 'react'
 import { Cards } from '../components/Cards';
 import { CommentForm } from '../components/CommentForm';
-import generateId from '../helpers/generateId';
 
 const cards = [
     {
